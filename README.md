@@ -81,8 +81,8 @@ Use the JSON config files included in this repo to upload the required webforms 
 * Go to the **Templates** tab in your developer account.
 * Select **Start** → **Web Forms** → **Upload Web Form**
 * Upload the following web form config files:
-  * [Address\_Selection\_Form.json](https://github.com/docusign/discover-extension-apps-workshop/blob/main/Address_Selection_Form.json)
-  * [Address\_Details\_Form.json](https://github.com/docusign/discover-extension-apps-workshop/blob/main/Address_Details_Form.json)
+  * [Address\_Selection\_Web\_Form.json](Address_Selection_Web_Form.json)
+  * [Address\_Details\_Web\_Form.json](Address_Details_Web_Form.json)
 
 
 
@@ -100,7 +100,7 @@ This will determine where your workflow will start from: a link, from within Mae
 
 ## Collect data with web forms \- Address selection
 
-This step will use [Address\_Selection\_Form.json](https://github.com/docusign/discover-extension-apps-workshop/blob/main/Address_Selection_Form.json) to collect an Address ID from the user. This will be used in the next step to search for a record in your local database that matches the address ID provided.
+This step will use [Address\_Selection\_Web\_Form.json](Address_Selection_Web_Form.json) to collect an Address ID from the user. This will be used in the next step to search for a record in your local database that matches the address ID provided.
 
 1. **Add Step** → **Collect Data with Web Forms**
 2. Select **Configure**
@@ -136,7 +136,7 @@ This step will search for a record in your local database and save the associate
 
 ## Collect data with web forms \- Account details
 
-This step will use web-form-config-pt2.json to collect account details from the user. This web form will be prepopulated with the data obtained in the previous step from your local database.
+This step will use [Address\_Details\_Web\_Form.json](Address_Details_Web_Form.json) to collect account details from the user. This web form will be prepopulated with the data obtained in the previous step from your local database.
 
 1. Select the \+ icon to **Add a step.**
 2. Select **Collect Data with Web Forms.**
